@@ -1,0 +1,10 @@
+from sys import argv
+scriptname, username = argv
+prompt = '>'
+print "hi %s, I'm the script %s"%(scriptname, username)
+print """I'd like to ask you a few questions %s,
+      do you like me? """ % username
+likes = raw_input(prompt)
+
+print """OK,I'v kown your likes:%s,
+      %s,thks""" % (likes, username)
